@@ -2,12 +2,6 @@ let inputWord = document.getElementById('word-input');
 let contentDiv = document.getElementById('content');
 let searchBtn = document.getElementById('search-btn');
 let resetBtn = document.getElementById('reset-btn');
-let word = '';
-let wordObj = {
-    partOfSpeech: {
-        value: "", meaningsArray: []
-    }
-}
 let meaningsData = {}
 
 searchBtn.addEventListener('click', searchMeaning);
